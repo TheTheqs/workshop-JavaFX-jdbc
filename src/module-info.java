@@ -2,6 +2,7 @@ module JavaFX {
 	requires javafx.fxml;
 	requires javafx.controls;
 	requires java.sql;
+	requires transitive javafx.base;
 	exports gui;
 	exports model.services;
 	exports model.entities;
