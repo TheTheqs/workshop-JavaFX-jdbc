@@ -6,6 +6,7 @@ module JavaFX {
 	exports gui;
 	exports model.services;
 	exports model.entities;
+	exports gui.listener;
 	
 	opens application to javafx.graphics, javafx.fxml;
 	opens gui to javafx.fxml;
